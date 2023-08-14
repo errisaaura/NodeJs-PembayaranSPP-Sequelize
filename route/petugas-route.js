@@ -89,7 +89,7 @@ app.put("/:id_petugas", async(req,res)=> {
 })
 
 //menghapus data
-app.delete("/:id_petugas",auth,  async(req,res) => {
+app.delete("/:id_petugas", async(req,res) => {
     let param = {
         id_petugas : req.params.id_petugas
     }
